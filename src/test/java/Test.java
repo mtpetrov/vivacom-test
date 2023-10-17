@@ -4,7 +4,7 @@ import org.testng.Assert;
 import page.object.*;
 
 public class Test extends TestSetupObject{
-    @org.testng.annotations.Test(invocationCount = 10)
+    @org.testng.annotations.Test
     public void test(){
         HomePage homePage = new HomePage(getDriver());
         homePage.navigateTo();
