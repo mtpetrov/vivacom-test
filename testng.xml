@@ -1,0 +1,7 @@
+<suite name="VivacomAssignment" verbose="1" >
+    <test name="VivacomAssignmentTest" >
+        <classes>
+            <class name="Test" />
+        </classes>
+    </test>
+</suite>
